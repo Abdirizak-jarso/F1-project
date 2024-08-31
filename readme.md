@@ -35,7 +35,6 @@ Data preprocessing involved several key steps:
 Several models were evaluated to determine the best approach for predicting race outcomes:
 - **Logistic Regression**: Chosen for its simplicity and interpretability, suitable for binary and multi-class classification.
 - **Decision Tree**: Applied for its ability to handle non-linear relationships and provide a visual interpretation of decision rules.
-- **Random Forest**: Used to improve accuracy and robustness by combining multiple decision trees.
 ## Evaluation
 The performance of the models was evaluated using the following metrics:
 - **Initial Model**: 
@@ -48,13 +47,12 @@ The performance of the models was evaluated using the following metrics:
 The optimized model showed a significant improvement over the initial model, with higher accuracy and better performance metrics across all classes. 
 
 ## Conclusion
-The optimized classification model demonstrates a notable enhancement in performance compared to the initial model. Key findings include:
+Decision tree classification model demonstrates a notable enhancement in performance compared to the initial model. Key findings include:
 - **Improved Accuracy**: The optimized model achieved a high accuracy of 98%, reflecting its effectiveness in making reliable predictions.
 - **Enhanced Metrics**: Precision, recall, and F1-score improved significantly across all classes, especially for Class 2, indicating strong model performance.
 
 **Recommendations:**
-1. **Use the Optimized Model**: Given its superior performance, the optimized model should be used for predictions.
-2. **Monitor and Address Class Imbalances**: Continue to assess and address any imbalances in class predictions.
+1. **Use Decision tree Model**: Given its superior performance, the optimized model should be used for predictions.
 3. **Validate and Test Further**: Perform additional validation on new datasets to ensure robustness.
 4. **Class 2 (Top Finishers)**: The model perfectly predicts the top finishers, suggesting a strong understanding of the factors leading to success. Continue to focus on the key variables influencing top performance.
 
